@@ -1,7 +1,6 @@
 const {Router} = require("express");
 const signup = require("./signup");
 const login = require("./login");
-const verifyToken = require("./verifyToken");
 
 import type { Request, Response } from "express";
 
